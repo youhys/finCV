@@ -31,8 +31,9 @@ body{
 
 nav{
   position: absolute;
-  top: 40px;
+  top: 36px;
   left: 814px;
+  line-height: 24px;
 }
 
 nav a{
@@ -59,7 +60,7 @@ main{
 
 input{
   width: 146px;
-  height: 49px;
+  height: 47px;
   mix-blend-mode: undefined;
   border-radius: 23px;
   border: solid 1px #818381;
@@ -106,7 +107,7 @@ h1{
 .input-cont{
   float: left;
   width: 218px;
-  margin-bottom: 24px;
+  margin-bottom: 23px;
 }
 
 .input-cont:first-child{
@@ -151,6 +152,10 @@ h1{
 
 .main-right{
   margin-top: 168px;
+}
+
+#quote-img{
+  padding-top: 4px;
 }
 
 .main-right p{

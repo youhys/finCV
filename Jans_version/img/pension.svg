@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="260" viewBox="0 0 360 260">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FCFDFD"/>
+            <stop offset="100%" stop-color="#EEF3F3"/>
+        </linearGradient>
+        <path id="c" d="M109.32 130h223.36a4.32 4.32 0 0 1 4.32 4.32v84.36a4.32 4.32 0 0 1-4.32 4.32H109.32a4.32 4.32 0 0 1-4.32-4.32v-84.36a4.32 4.32 0 0 1 4.32-4.32z"/>
+        <filter id="b" width="103.9%" height="109.7%" x="-1.9%" y="-4.8%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="245" cy="75" r="30" fill="url(#a)"/>
+        <circle cx="90.5" cy="170.5" r="29.5" fill="url(#a)"/>
+        <rect width="266" height="161" x="88" y="89" fill="url(#a)" opacity=".8" rx="5"/>
+        <rect width="253" height="147" x="95" y="98" fill="#FFF" rx="3"/>
+        <circle cx="84.5" cy="74.5" r="23.5" fill="url(#a)"/>
+        <circle cx="31.5" cy="171.5" r="5.5" fill="url(#a)"/>
+        <circle cx="53" cy="221" r="4" fill="url(#a)"/>
+        <circle cx="122.5" cy="25.5" r="2.5" fill="url(#a)"/>
+        <circle cx="176" cy="68" r="4" fill="url(#a)"/>
+        <circle cx="198" cy="29" r="7" fill="url(#a)"/>
+        <circle cx="334" cy="75" r="7" fill="url(#a)"/>
+        <circle cx="311" cy="36" r="10" fill="url(#a)"/>
+        <text fill="#353A41" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="10.08" font-weight="500" letter-spacing=".21">
+            <tspan x="127" y="205">Pension </tspan>
+        </text>
+        <circle cx="119.5" cy="202.5" r="3.5" fill="#2381FD"/>
+        <text fill="#353A41" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="10.08" font-weight="500" letter-spacing=".21">
+            <tspan x="209" y="205">Skat</tspan>
+        </text>
+        <circle cx="202.5" cy="202.5" r="3.5" fill="#FC656C"/>
+        <text fill="#353A41" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="10.08" font-weight="500" letter-spacing=".21">
+            <tspan x="275" y="205">Til rådighed</tspan>
+        </text>
+        <circle cx="267.5" cy="202.5" r="3.5" fill="#33D4C1"/>
+        <use fill="#000" filter="url(#b)" xlink:href="#c"/>
+        <use fill="#FFF" xlink:href="#c"/>
+        <text fill="#9FA7B3" font-family="SourceSansPro-Regular, Source Sans Pro" font-size="8.64" letter-spacing=".18">
+            <tspan x="114" y="188">Månedlig indbetalinger: 4.750 kr. </tspan>
+        </text>
+        <text fill="#353A41" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="11.52" font-weight="500">
+            <tspan x="114" y="151">Pensions fordeling</tspan>
+        </text>
+        <rect width="214" height="7" x="114" y="163" fill="#DCE6F0" rx="3.5"/>
+        <rect width="149" height="7" x="179" y="163" fill="#2CC197" rx="3.5"/>
+        <path fill="#2382FE" d="M117.5 163H182v7h-64.5a3.5 3.5 0 1 1 0-7z"/>
+        <text fill="#353A41" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="9.36" font-weight="500" letter-spacing=".195">
+            <tspan x="127" y="208">Egen betaling (5%)</tspan>
+        </text>
+        <circle cx="119.5" cy="204.5" r="3.5" fill="#2381FD"/>
+        <text fill="#353A41" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="9.36" font-weight="500" letter-spacing=".21">
+            <tspan x="248" y="208">Firma betalt (11%)</tspan>
+        </text>
+        <circle cx="240.5" cy="204.5" r="3.5" fill="#33D4C1"/>
+    </g>
+</svg>

@@ -1,0 +1,433 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    border:none;
+}
+
+header{
+    margin-bottom: 42px;
+}
+
+header img{
+    margin-left: 150px;
+    margin-top: 21px;
+}
+
+.fas-icon-cont{
+    display: none;
+}
+
+header nav{
+    float: right;
+    margin-right: 180px;
+    margin-top: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+header nav a{
+    letter-spacing: -0.6px;
+    color: #414141;
+}
+
+header nav :nth-child(odd){
+    margin-right: 22px;
+}
+
+header nav a:nth-child(2){
+    margin-right: 30px;
+}
+
+#login-btn{
+  width: 78px;
+  height: 49px;
+  border-radius: 5px;
+  background-color: #f5f9ff;
+  text-align: center;
+  color: #5587fc;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: normal;
+  letter-spacing: -0.6px;
+}
+
+.komigang-btn{
+    width: 122px;
+    height: 49px;
+    border-radius: 5px;
+    background-image: linear-gradient(to left, #1670fc, #5799fd);
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: -0.6px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#promo-cont{
+    display: flex;
+    margin-bottom: 75px;
+}
+
+#promo-text-cont{
+    left: 150px;
+    top: 10px;
+    width: 370px;
+    height: 288px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 0 rgba(30, 30, 30, 0.05);
+    position: relative;
+    z-index: 1;
+    padding: 48px 25px 0 25px;
+
+}
+
+#promo-text-cont h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 39px;
+    letter-spacing: -1.5px;
+    color: #414141;
+    margin-bottom: 6px;
+}
+
+#promo-text-cont p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.7px;
+    color: #414141;
+    margin-bottom: 20px;
+}
+
+#promo-cont img{
+    position: absolute;
+    right: 185px;
+}
+
+.keypoints{
+    width: 1110px;
+    margin: 0 auto 90px auto;
+    display: flex;
+}
+
+.keypoints div{
+    width: 350px;
+}
+
+.keypoints div:nth-child(1), .keypoints div:nth-child(2){
+    margin-right: 26px;
+}
+
+.keypoints-cont img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+}
+
+h2{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: -0.8px;
+    color: #414141;
+    margin-bottom: 12px;
+}
+
+p{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: -0.6px;
+    color: #a0a0a0;
+}
+
+h3{
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #414141;
+    width: 527px;
+    margin: auto;
+}
+
+#demo{
+    width: 946px;
+    margin: auto;
+    margin-bottom: 90px;
+}
+
+.demo-cont{
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.demo-cont :first-child{
+    margin-right: 130px;
+}
+
+.demo-cont div{
+    width: 456px;
+    padding-top: 100px;
+}
+
+#h3-second{
+    margin-bottom: 90px;
+}
+
+footer{
+    width: 100vw;
+    opacity: 0.9;
+    background-color: #f8f8f8;
+  }
+
+#footer-top{
+    width: 1100px;
+    margin: 0 auto 50px auto;
+    display: flex;
+    padding-top: 62px;
+}
+
+#footer-top div h4{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: -0.8px;
+    color: #4a4a4a;
+}
+
+#footer-top div nav{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-top div p{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: -0.6px;
+    color: #a0a0a0;
+}
+
+.kontakt-btn{
+    width: 115px;
+    height: 49px;
+    border-radius: 5px;
+    background-color: #f5f9ff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: -0.6px;
+    text-align: center;
+    color: #5587fc;
+}
+
+#contact-cont{
+    width: 400px;
+    height: 336px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 0 rgba(30, 30, 30, 0.05);
+    padding: 40px 0 0 40px;
+}
+
+#contact-cont p:last-child{
+    color: #3181fc;
+}
+
+#footer-top div:nth-child(2){
+    width: 400px;
+    margin: 0 50px 0 70px;
+}
+
+#footer-top div nav a{
+    height: 26px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.7px;
+    color: #3181fc;
+    margin-bottom: 15px;
+}
+
+#footer-top div h4{
+    margin-bottom: 20px;
+}
+
+#footer-top div p{
+    margin-bottom: 20px;
+}
+
+#footer-bottom button{
+  display: block;
+  width: 524px;
+  height: 55px;
+  border-radius: 8px;
+  background-color: #f6f9fc;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #96a3b5;
+  margin: auto;
+}
+
+#footer-bottom p{
+  display: block;
+  width: 331px;
+  height: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #96a3b5;
+  text-align: center;
+  margin: 25px auto;
+}
+
+#footer-bottom{
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1100px){
+    header nav{
+        display: none;
+    }
+
+    #promo-cont img{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header img{
+        margin-left: 11px;
+        margin-top: 15px;
+    }
+
+    .fas-icon-cont{
+        display: block;
+        float: right;
+        font-size: 24px;
+        margin-top: 17.5px;
+        margin-right: 11px;
+    }
+
+    #promo-cont{
+        margin-left: 16px;
+        margin-bottom: 0px;
+    }
+
+    #promo-text-cont{
+        border-radius: 0;
+        background-color: #ffffff;
+        box-shadow: none;
+        padding: 0;
+    }
+    
+    #promo-text-cont{
+        left: 10px;
+        top: 0px;    
+    }
+
+    .komigang-btn{
+        width: 350px;
+        height: 49px;
+        border-radius: 5px;
+        background-image: linear-gradient(to left, #1670fc, #5799fd);
+    }
+
+    .keypoints{
+        display: block;
+        margin-left: 16px;
+    }
+
+    .keypoints div{
+        margin-bottom: 30px;
+        margin-right: 0;
+        width: 360px;
+    }
+
+    .keypoints div:nth-child(1), .keypoints div:nth-child(2){
+        margin-right: 0;
+    }
+
+    h3{
+        width: 375px;
+        margin: auto;
+    }
+
+    #demo{
+        width: 360px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .demo-cont{
+        display: block;
+        margin-bottom: 30px;
+    }
+    
+    .demo-cont :first-child{
+        margin-right: 0;
+    }
+    
+    .demo-cont div{
+        width: 360px;
+        padding-top: 100px;
+    }
+
+    .mobile-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #footer-top{
+        margin: 0 0 50px 16px;
+        display: block;
+        padding-top: 35px;
+    }
+
+    #footer-top div{
+        margin-bottom: 35px;
+    }
+
+    #footer-top div:nth-child(2) {
+        width: 360px;
+        margin: 0 0 35px 0;
+    }
+
+    .button-flex{
+        display: flex;
+    }
+
+    .footer-komigang{
+        width: 122px;
+        height: 49px;
+        border-radius: 5px;
+        background-image: linear-gradient(to left, #1670fc, #5799fd);
+        font-family: Roboto;
+        font-size: 16px;
+        letter-spacing: -0.6px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    #contact-cont{
+        width: 320px;
+        height: 270px;
+        padding: 40px 0 0 40px;
+    }
+
+    #footer-bottom button{
+        display: none;
+    }
+
+}

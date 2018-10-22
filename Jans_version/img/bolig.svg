@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="260" viewBox="0 0 360 260">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FCFDFD"/>
+            <stop offset="100%" stop-color="#EEF3F3"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="80.5" cy="161.5" r="29.5" fill="url(#a)"/>
+        <circle cx="107" cy="64" r="18" fill="url(#a)"/>
+        <circle cx="339.5" cy="239.5" r="11.5" fill="url(#a)"/>
+        <circle cx="288" cy="226" r="6" fill="url(#a)"/>
+        <circle cx="36.5" cy="193.5" r="5.5" fill="url(#a)"/>
+        <circle cx="122.5" cy="25.5" r="2.5" fill="url(#a)"/>
+        <circle cx="176" cy="68" r="4" fill="url(#a)"/>
+        <circle cx="331" cy="68" r="7" fill="url(#a)"/>
+        <circle cx="222.5" cy="236.5" r="3.5" fill="url(#a)"/>
+        <circle cx="31" cy="23" r="7" fill="url(#a)"/>
+        <circle cx="222" cy="42" r="16" fill="url(#a)"/>
+        <rect width="266" height="161" x="67" y="56" fill="url(#a)" opacity=".8" rx="5"/>
+        <rect width="253" height="147" x="74" y="65" fill="#FFF" rx="3"/>
+        <g transform="translate(85 95)">
+            <circle cx="45" cy="45" r="45" stroke="#000" stroke-width=".5" opacity=".1"/>
+            <path stroke="#FB3353" stroke-width="1.44" d="M45.9 0c24.853 0 45 20.147 45 45s-20.147 45-45 45"/>
+            <text fill="#000" font-family="Roboto-Light, Roboto" font-size="18" font-weight="300">
+                <tspan x="28.825" y="59.1">49%</tspan>
+            </text>
+            <text fill="#000" font-family="Roboto-Light, Roboto" font-size="7.2" font-weight="300">
+                <tspan x="25.423" y="73">Din Belåning</tspan>
+            </text>
+            <circle cx="46.8" cy="90" r="1.8" fill="#FB3353"/>
+            <path stroke="#000" stroke-linecap="round" stroke-width=".792" d="M37.8 27.9v9h5.7v-6.75h5.7v6.75h5.7v-9"/>
+            <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".792" d="M34.2 27.9l11.7-11.7 11.7 11.7"/>
+            <path stroke="#000" stroke-linecap="round" stroke-width=".792" d="M49.5 17.1h3.6v3.6"/>
+        </g>
+        <text fill="#000" font-family="Roboto-Light, Roboto" font-size="24.3" font-weight="300">
+            <tspan x="192.063" y="172">2.624.958</tspan>
+        </text>
+        <text fill="#000" font-family="Roboto-Light, Roboto" font-size="24.3" font-weight="300">
+            <tspan x="192.063" y="118">3.140.000</tspan>
+        </text>
+        <text fill="#000" font-family="Roboto-Light, Roboto" font-size="7.29" font-weight="300">
+            <tspan x="192" y="185">Skønnet friværdi i din bolig</tspan>
+        </text>
+        <text fill="#000" font-family="Roboto-Light, Roboto" font-size="7.29" font-weight="300">
+            <tspan x="192" y="131">Skønnet ejendomsværdi</tspan>
+        </text>
+    </g>
+</svg>

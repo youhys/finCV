@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="260" viewBox="0 0 360 260">
+    <defs>
+        <linearGradient id="e" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FCFDFD"/>
+            <stop offset="100%" stop-color="#EEF3F3"/>
+        </linearGradient>
+        <circle id="a" cx="93" cy="93" r="66.429"/>
+        <mask id="f" width="132.857" height="132.857" x="0" y="0" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <circle id="b" cx="93" cy="93" r="66.429"/>
+        <mask id="g" width="132.857" height="132.857" x="0" y="0" fill="#fff">
+            <use xlink:href="#b"/>
+        </mask>
+        <circle id="c" cx="93" cy="93" r="66.429"/>
+        <mask id="h" width="132.857" height="132.857" x="0" y="0" fill="#fff">
+            <use xlink:href="#c"/>
+        </mask>
+        <circle id="d" cx="93" cy="93" r="66.429"/>
+        <mask id="i" width="132.857" height="132.857" x="0" y="0" fill="#fff">
+            <use xlink:href="#d"/>
+        </mask>
+        <path id="k" d="M93 174.93c45.982 0 83.257-37.033 83.257-82.717 0-27.538-13.687-52.178-34.519-67.213-7.834 11.187-24.08 33.591-48.738 67.213v82.718z"/>
+        <filter id="j" width="169.7%" height="138.7%" x="-39.6%" y="-19.3%" filterUnits="objectBoundingBox">
+            <feOffset dx="-4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="9"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.117647059 0 0 0 0 0.117647059 0 0 0 0 0.117647059 0 0 0 0.25 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="80.5" cy="161.5" r="29.5" fill="url(#e)"/>
+        <circle cx="107" cy="64" r="18" fill="url(#e)"/>
+        <circle cx="331.5" cy="187.5" r="11.5" fill="url(#e)"/>
+        <circle cx="288" cy="226" r="6" fill="url(#e)"/>
+        <circle cx="36.5" cy="193.5" r="5.5" fill="url(#e)"/>
+        <circle cx="122.5" cy="25.5" r="2.5" fill="url(#e)"/>
+        <circle cx="176" cy="68" r="4" fill="url(#e)"/>
+        <circle cx="331" cy="68" r="7" fill="url(#e)"/>
+        <circle cx="222.5" cy="236.5" r="3.5" fill="url(#e)"/>
+        <circle cx="31" cy="23" r="7" fill="url(#e)"/>
+        <circle cx="222" cy="42" r="16" fill="url(#e)"/>
+        <g transform="translate(79 31)">
+            <use stroke="#F8FAFA" stroke-dasharray="62.4979515970972,662.8570405687642" stroke-width="132.571" mask="url(#f)" transform="rotate(54 93 93)" xlink:href="#a"/>
+            <use stroke="#D7E6FF" stroke-dasharray="62.4979515970972,662.8570405687642" stroke-width="132.571" mask="url(#g)" transform="rotate(108 93 93)" xlink:href="#b"/>
+            <use stroke="#8FBBFF" stroke-dasharray="62.4979515970972,662.8570405687642" stroke-width="132.571" mask="url(#h)" transform="rotate(162 93 93)" xlink:href="#c"/>
+            <use stroke="#1770FC" stroke-dasharray="62.4979515970972,662.8570405687642" stroke-width="132.571" mask="url(#i)" transform="rotate(-144 93 93)" xlink:href="#d"/>
+            <use fill="#000" filter="url(#j)" xlink:href="#k"/>
+            <use fill="#F1F5F5" xlink:href="#k"/>
+        </g>
+    </g>
+</svg>

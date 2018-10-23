@@ -5,6 +5,11 @@
     border:none;
 }
 
+main{
+    max-width: 1440px;
+    margin: auto;
+}
+
 header{
     margin-bottom: 42px;
 }
@@ -84,15 +89,6 @@ header nav a:nth-child(2){
 
 }
 
-#promo-text-cont h1{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 39px;
-    letter-spacing: -1.5px;
-    color: #414141;
-    margin-bottom: 6px;
-}
-
 #promo-text-cont p{
     font-family: Roboto;
     font-size: 18px;
@@ -127,6 +123,15 @@ header nav a:nth-child(2){
     margin-bottom: 24px;
 }
 
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 39px;
+    letter-spacing: -1.5px;
+    color: #414141;
+    margin-bottom: 6px;
+}
+
 h2{
     font-family: Roboto;
     font-size: 22px;
@@ -158,15 +163,14 @@ h3{
     margin: auto;
 }
 
-#demo{
-    width: 946px;
-    margin: auto;
+.demo{
     margin-bottom: 90px;
 }
 
 .demo-cont{
     display: flex;
     margin-bottom: 70px;
+    justify-content: center;
 }
 
 .demo-cont :first-child{
@@ -296,6 +300,118 @@ footer{
     padding-bottom: 20px;
 }
 
+/*/ Styling for about.html /*/
+
+.about-intro-cont{
+    width: 753px;
+    height: 251px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgba(30, 30, 30, 0.05);
+    background-color: #ffffff;
+    margin: 20px auto 90px auto;
+}
+
+.about-intro-cont div{
+    padding: 30px 23px 10px 23px;
+}
+
+.about-intro-cont h1{
+    margin-bottom: 25px;
+}
+
+.about-intro-cont p{
+    line-height: 1.67;
+    letter-spacing: -0.7px;
+}
+
+/*/ Styling for login.html /*/
+
+#body-wrapper{
+    display: flex;
+    margin: auto;
+}
+
+.left-cont{
+    width: 933px;
+}
+
+.left-cont-wrapper{
+    margin: auto;
+    text-align: center;
+}
+
+.left-cont-wrapper img{
+    margin-top: 30px;
+}
+
+.left-cont-wrapper h1{
+    margin-top: 186px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -1.1px;
+    color: #4a4a4a;
+}
+
+.left-cont-wrapper button{
+    width: 295px;
+    height: 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(to left, #1670fc, #5799fd);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.right-cont{
+    width: 507px;
+    height: 100vh;
+    background-image: linear-gradient(to left, #1670fc, #5799fd);
+    display: flex;
+}
+
+.right-cont-wrapper{
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.right-cont div{
+    display: flex;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.h2-white{
+    height: 26px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.8px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.fa-check-circle{
+    padding-top: 4.5px;
+}
+
+/*/ Media queries /*/
+
 @media only screen and (max-width: 1100px){
     header nav{
         display: none;
@@ -307,6 +423,11 @@ footer{
 }
 
 @media only screen and (max-width: 768px) {
+    #wrapper{
+        width: 375px;
+        margin: 0;
+    }
+
     header img{
         margin-left: 11px;
         margin-top: 15px;
@@ -331,7 +452,7 @@ footer{
         box-shadow: none;
         padding: 0;
     }
-    
+
     #promo-text-cont{
         left: 10px;
         top: 0px;    
@@ -364,10 +485,11 @@ footer{
         margin: auto;
     }
 
-    #demo{
+    .demo{
         width: 360px;
         margin: auto;
         margin-bottom: 50px;
+        padding-left: 16px;
     }
     
     .demo-cont{
@@ -387,6 +509,30 @@ footer{
     .mobile-reverse{
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    /*/about.html mobile page/*/
+
+    .about-intro-cont{
+        width: 370px;
+        height: 300px;
+        border-radius: 5px;
+        box-shadow: none;
+        background-color: none;
+        margin: 0 0 0 16px;
+    }
+    
+    .about-intro-cont div{
+        padding: 0;
+    }
+    
+    .about-intro-cont h1{
+        margin-bottom: 25px;
+    }
+    
+    .about-intro-cont p{
+        line-height: 1.67;
+        letter-spacing: -0.7px;
     }
 
     #footer-top{
@@ -428,6 +574,23 @@ footer{
 
     #footer-bottom button{
         display: none;
+    }
+
+    /*/login.html mobile page/*/
+
+    #body-wrapper{
+        display: block;
+    }
+
+    .left-cont{
+        width: 375px;
+        margin-bottom: 100px;
+    }
+
+    .right-cont-wrapper{
+        width: 100vw;
+        align-items: flex-start;
+        margin-left: 18px;
     }
 
 }
